@@ -18,7 +18,12 @@ public class DemoApplication {
 		public String hello(){
 			return "Hi, Zeus!";
 		}
+		@GetMapping("helloWorld")
+		public String helloWorld(){
+			return "Hello World";
+		}
 	}
+
 }
 
 
