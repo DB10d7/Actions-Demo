@@ -40,4 +40,4 @@ jobs:
           KEY: ${{ secrets.SSH_KEY }}
         with:
           source: "./target/demo-0.0.1-SNAPSHOT.jar"
-          target: "/artifact/"
+          target: "artifact"
