@@ -18,9 +18,9 @@ public class DemoApplication {
 		public String hello(){
 			return "Hi, Zeus!";
 		}
-		@GetMapping("helloWorld")
+		@GetMapping("helloZeus")
 		public String helloWorld(){
-			return "Hello World";
+			return "Hello Zeus";
 		}
 	}
 
