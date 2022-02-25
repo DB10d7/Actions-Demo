@@ -38,6 +38,6 @@ jobs:
           image: debdeep10/docker-spring-boot-demo
           tags: v1, latest
           registry: docker.io
-          dockerfile: ../../DockerFile.ci
+          dockerfile: DockerFile.ci
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
