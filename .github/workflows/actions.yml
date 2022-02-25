@@ -38,7 +38,7 @@ jobs:
         with:
           image: demo-0.0.1-SNAPSHOT
           tags: latest
-          registry: docker.io
+#          registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
